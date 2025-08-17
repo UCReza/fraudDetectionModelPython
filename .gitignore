@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Environments
+venv/
+.env/
+.env*/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data & models (keep large files out of git)
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.pkl
+*.pt
+*.pth
+logs/
+EOF

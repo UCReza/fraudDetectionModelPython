@@ -1,0 +1,32 @@
+Project: Fraud Detection using AutoEncoder (PyOD)
+Author: Reza Shrestha
+Date: Aug 17, 2025
+
+Description:
+This project uses an AutoEncoder model from the PyOD library to detect fraudulent transactions
+in an anonymized credit card dataset from Kaggle. The AutoEncoder identifies anomalies based on 
+reconstruction errors.
+
+Files:
+- fraud_detection_autoencoder.py   # Main Python source code
+- manifest.txt                     # Project manifest
+- requirements.txt                 # Dependencies
+- README.md                        # Project overview and instructions
+
+Dependencies:
+- Python 3.8+
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- pyod
+
+Dataset:
+- Credit Card Fraud Detection dataset from Kaggle:
+  https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+Output:
+- Console logs of training/testing results
+- Visualization plots of reconstruction errors
+- Example screenshot of experiment run
